@@ -1,0 +1,30 @@
+{
+  "name": "next",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"next dev",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4ximize/PokeMax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4ximize/PokeMax/issues"
+  },
+  "homepage": "https://github.com/M4ximize/PokeMax#readme",
+  "dependencies": {
+    "dom": "^0.0.3",
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "keywords": [],
+  "description": ""
+}

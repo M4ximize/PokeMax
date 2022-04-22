@@ -1,0 +1,24 @@
+.footer{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2a2a;
+   
+    margin-top: 1em;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    color: #ffffff;
+    
+}
+
+.footer p:hover{
+    border-bottom: 2px solid #ff0000;
+
+}
+
+.footer span{
+    font-weight: bold;
+
+}

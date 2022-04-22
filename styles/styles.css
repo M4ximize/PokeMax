@@ -1,0 +1,389 @@
+*{
+    margin-right: 0;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.main-container{
+    min-height: 25px;
+   
+
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+      
+  }
+  
+  h1{
+    text-align: center;
+   color: #212121;
+   font-weight: bolder;
+   font-family: 'Poppins', sans-serif;
+   font-size: 72px;
+  }
+  .rock  {
+    border: 4px solid #B69E31;
+    
+  }
+  .ghost {
+    border: 4px solid #70559B;
+  }
+  .electric {
+    border: 4px solid #F9CF30;
+  }
+  .bug {
+    border: 4px solid #A7B723;
+  }
+  .poison {
+    border: 4px solid #A43E9E;
+  }
+  .normal {
+    border: 4px solid #AAA67F;
+  }
+  .ground {
+    border: 4px solid #DEC16B;
+  
+  }
+  .fighting {
+    border:4px solid #C12239;
+  }
+  
+  .psychic{
+    border: 4px solid #FB5584;
+  
+  }
+  
+  .fairy {
+    border: 4px solid #E69EAC;
+  }
+  .fire {
+    border: 4px solid #F57D31;
+  }
+  .grass {
+    border: 4px solid #74CB48;
+    
+  }
+  
+  .flying {
+    border: 4px solid #A891EC;
+  }
+  .ice {
+    border: 4px solid #9AD6DF;
+  }
+  .dragon {
+    border: 4px solid #7037FF;
+  }
+  .dark {
+    border: 4px solid #75574C;
+  }
+  
+  .steel {
+    border: 4px solid #B7B9D0;
+  }
+  
+  .water {
+    border: 4px solid #6493EB;
+  }
+  
+  
+  
+  
+  /*numeros de ID ()*/
+  .rock  .number{
+    color: #B69E31;
+    
+  }
+  .ghost .number{
+    color: #70559B;
+  
+  }
+  .electric .number{
+    color: #F9CF30;
+  
+  }
+  .bug .number{
+    color: #A7B723;
+  
+  }
+  
+  .ground .number{
+    color: #DEC16B;
+  
+  }
+  .fighting .number{
+   color: #C12239;
+  
+  }
+  .psychic .number{
+    color: #FB5584;
+  
+  }
+  .poison .number{
+    color: #A43E9E;
+  
+  }
+  .normal .number{
+    color: #AAA67F;
+  
+  }
+  .fairy .number{
+    color: #E69EAC;
+  
+  }
+  .fire .number{
+    color: #F57D31;
+  
+  }
+  .grass .number{
+    color: #74CB48;
+  
+    
+  }
+  
+  .flying .number{
+    color: #A891EC;
+  }
+  .ice .number{
+    color:  #9AD6DF;
+  }
+  .dragon .number{
+    color: #7037FF;
+  }
+  .dark .number{
+    color:  #75574C;
+  }
+  
+  .steel .number{
+    color:  #B7B9D0;
+  }
+  
+  .water .number{
+    color: #6493EB;
+    
+  }
+  
+  .app-contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 0.5rem;
+    
+   
+    
+  }
+  .pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+ 
+    
+    
+  }
+  .all-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+  }
+  .thumb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px ;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 160px;
+    text-align: center;
+ 
+    
+    
+  }
+  h3 {
+      margin-top: 6px;
+    margin-bottom: 0.2rem;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+  
+  }
+  .thumb-container .number {
+    border-radius: 1rem;
+    padding: 20px;
+    font-weight: bold;
+    text-align: right;
+   
+  }
+  .thumb-container img {
+    width: 120px;
+    height: 120px;
+  }
+  span {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+  }
+  .detail-wrapper {
+    align-items: inherit;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+   
+   
+    border-radius: 0px 0px 15px 15px;
+  }
+  
+  /*Base do nome e tipo ()*/
+  .rock  .detail-wrapper{
+    background-color: #B69E31;
+    
+  }
+  .ghost .detail-wrapper{
+   background-color: #70559B;
+  
+  }
+  .electric .detail-wrapper{
+    background-color: #F9CF30;
+  
+  
+  }
+  .bug .detail-wrapper{
+    background-color: #A7B723;
+  
+  }
+  .ground .detail-wrapper{
+    background-color: #DEC16B;
+  
+  }
+  .fighting .detail-wrapper{
+    background-color: #C12239;
+  
+  }
+  .psychic .detail-wrapper{
+    background-color: #FB5584;
+  
+  }
+  .poison .detail-wrapper{
+    background-color: #A43E9E;
+  
+  }
+  
+  
+  .normal .detail-wrapper{
+    background-color: #AAA67F;
+  
+  }
+  .fairy .detail-wrapper{
+    background-color: #E69EAC;
+  
+  }
+  .fire .detail-wrapper{
+    background-color: #F57D31;
+  
+  }
+  .grass .detail-wrapper{
+    background-color: #74CB48;
+  
+    
+  }
+  
+  .flying .detail-wrapper{
+    background-color: #A891EC;
+  }
+  .ice .detail-wrapper{
+    background-color: #9AD6DF;
+  }
+  .dragon .detail-wrapper{
+    background-color: #7037FF;
+  }
+  .dark .detail-wrapper{
+    background-color: #75574C;
+  }
+  
+  .steel .detail-wrapper{
+    background-color: #B7B9D0;
+  }
+  
+  .water .detail-wrapper{
+    background-color: #6493EB;
+    
+    
+  }
+  
+  
+  
+  
+  .detail-wrapper button {
+    color: rgb(22, 22, 22);
+    padding-top: 5px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.185);
+  }
+  .load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:120px;
+    padding: 8px;
+    background-image: linear-gradient(160deg, rgb(171, 17, 17) 45%, rgb(63, 10, 10) 96%);
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    transition-duration: 0.8s;
+  }
+
+  .load-more:hover {
+    background-image: linear-gradient(200deg, rgb(171, 17, 17) 45%, rgb(63, 10, 10) 96%);
+}
+
+
+
+
+ .btn{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      border: 0px solid;
+      background-color: #ffffff27;
+      padding: 5px 10px;
+      border-radius: 30px;
+      font-size: 14px;
+      transition-duration: 0.8s;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.582);
+  } 
+
+  .btn:hover {
+   
+    color: #2B2A2A;
+    background-color: #ffffff;
+  }

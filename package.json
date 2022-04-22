@@ -4,8 +4,7 @@
   "main": "next.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"next dev"
-  
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   "dependencies": {
     "dom": "^0.0.3",
     "next": "^12.1.5",
+    "node": "^17.7.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

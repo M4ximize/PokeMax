@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/Footer"
 
 
 export const getStaticPaths = async () => {
-  const maxPokemons = 251
+  const maxPokemons = 40
   const api = `https://pokeapi.co/api/v2/pokemon/`
 
   const res = await fetch(`${api}/?limit=${maxPokemons}`)

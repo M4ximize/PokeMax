@@ -1,0 +1,80 @@
+
+.title {
+    height: 70vh;
+background-image: url('../public/pokeball25.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.title h1{
+
+    color:#2b2a2a;
+
+}
+
+.title h3{
+
+ 
+    color:#971010;
+    font-size: 32px;
+    font-weight: bold;
+    
+
+}
+
+.title span {
+    
+color: transparent ;
+background-image: linear-gradient(160deg, rgb(171, 17, 17) 45%, rgb(63, 10, 10) 96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+.text {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: auto;
+text-align: center;
+max-width: 1000px;
+margin-top: 40px;
+
+
+
+}
+
+.text p {
+    margin: 8px;
+}
+
+.list ul{
+text-align: center;
+    
+}
+
+.list li{
+    display: flex;
+    text-align: left;
+       
+        color: #2b2b2b;
+    }
+
+.list{
+    margin-top: 40px;
+background-color: rgba(255, 255, 255, 0.76);
+display: flex;
+align-items: center;
+padding: 20px;
+border: #861515 2px solid;
+border-radius: 10px;
+box-shadow: #2b2a2a8a 2px 2px 5px;
+
+}

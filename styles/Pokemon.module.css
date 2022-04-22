@@ -12,11 +12,14 @@ background-size: 300px;
     justify-content: center;
  
     border: 2px solid #940303;
-max-width: 450px;
+max-width: 400px;
 margin: 50px auto;
 border-radius: 15px;
 
+
 }
+
+
 .about{
 
     margin-top: 96px;
@@ -33,11 +36,16 @@ color: #00000000;
 
 }
 .about_title{
+  
+  text-align: center;
     padding-top: 20px;
 color: #2b2b2b;
-font-size: 20px;
-
-
+font-size: 32px;
+padding-bottom: 16px;
+border-bottom: #940303 3px solid ;
+border-radius: 300%;
+width: 300px;
+margin: auto;
 }
 .pokemon_container {
    display: flex;
@@ -91,90 +99,94 @@ margin: 20px 0px 50px 30px;
     align-items: center;
     justify-content: center;
     font-size: 16px;
+  
 
   }
+
+ 
   
   .type {
     padding: 0.3em 1em;
     color: #fff;
     background-color: #000;
     margin: auto 10px;
+    font-weight: 500;
    
     border-radius: 30px;
     text-transform: uppercase;
     font-size: 0.7em;
   }
   
-  .type_normal {
-    background-color: #aa9;
+  .type_normal .container {
+    background-color: #aaa67f;
   }
   
   .type_fire {
-    background-color: #f42;
+    background-color: #F57D31;
   }
   
   .type_water {
-    background-color: #39f;
+    background-color: #6493EB;
   }
   
   .type_eletric {
-    background-color: #fc3;
+    background-color: #F9CF30;
   }
   
   .type_grass {
-    background-color: #7c5;
+    background-color: #74CB48;
   }
   
   .type_ice {
-    background-color: #6cf;
+    background-color: #9AD6DF;
   }
   
   .type_fighting {
-    background-color: #b54;
+    background-color: #C12239;
   }
   
   .type_poison {
-    background-color: #a59;
+    background-color: #A43E9E;
   }
   
   .type_ground {
-    background-color: #db5;
+    background-color: #DEC16B;
   }
   
   .type_flying {
-    background-color: #89f;
+    background-color: #A891EC;
   }
   
   .type_psychic {
-    background-color: #f59;
+    background-color: #FB5584;
   }
   
   .type_bug {
-    background-color: #ab2;
+    background-color: #A7B723;
   }
   
   .type_rock {
-    background-color: #ba6;
+    background-color: #B69E31;
   }
   
   .type_ghost {
-    background-color: #66b;
+    background-color: #70559B;
   }
   
   .type_dragon {
-    background-color: #76e;
+    background-color: #7037FF;
   }
   
   .type_dark {
-    background-color: #754;
+    background-color: #75574C;
   }
   
   .type_steel {
-    background-color: #aab;
+    background-color: #B7B9D0;
   }
   
   .type_fairy {
-    background-color: #e9e;
+    background-color: #E69EAC;
   }
   
   .data_container {
@@ -195,7 +207,7 @@ margin: 20px 0px 50px 30px;
   
   .data_height  {
     border-right: 1px solid #940303;
-   
+    font-weight: 300;
     
   }
 
@@ -205,9 +217,44 @@ margin: 20px 0px 50px 30px;
     font-size: 20px;
 }
 
+.data_weight {
+
+  font-weight: 300;
+
+}
+
 .data_weight h4{
 
     color: #940303;
     font-size: 20px;
+
+}
+
+.data_ability h4{
+
+  padding-bottom: 8px;
+
+  color: #940303;
+  font-size: 20px;
+
+}
+
+.data_ability{
+padding: 16px 0px 40px 0px;
+
+
+}
+
+.ability{
+display: inline;
+justify-content: space-between;
+
+ margin: 10px 10px ;
+
+ font-weight: 300;
+
+ max-width: 30vh;
+
+
 
 }

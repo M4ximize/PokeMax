@@ -6,9 +6,8 @@ import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 
 
-
 export const getStaticPaths = async () => {
-  const maxPokemons = 40
+  const maxPokemons = 251
   const api = `https://pokeapi.co/api/v2/pokemon/`
 
   const res = await fetch(`${api}/?limit=${maxPokemons}`)
@@ -81,15 +80,33 @@ export default function Pokemon({ pokemon }) {
           </div>
           <div className={styles.data_container}>
             <div className={styles.data_height}>
-              <h4>Altura:</h4>
+              <h4>Altura</h4>
               <p>{pokemon.height * 10} cm</p>
             </div>
             <div className={styles.data_weight}>
-              <h4>Peso:</h4>
+              <h4>Peso</h4>
               <p>{pokemon.weight / 10} kg</p>
             </div>
           </div>
+       <div className={styles.data_ability}>
+       <h4>Habilidades</h4>
+        {pokemon.abilities.map((ability,index) =>{
+
+        return(
+          <div className={styles.ability} key={index} >
+        {ability.ability.name}
+
+          </div>
+        )
+        
+       } )}
+
+       </div>
+
        
+
+
+
         </div>
       </div>
       </div>

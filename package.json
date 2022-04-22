@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/M4ximize/PokeMax#readme",
   "dependencies": {
+    "@lottiefiles/lottie-interactivity": "^1.5.0",
     "babel": "^6.23.0",
     "dom": "^0.0.3",
+    "lottie": "^0.0.1",
     "next": "^12.1.5",
     "node": "^17.7.2",
     "react": "^18.0.0",

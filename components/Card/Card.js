@@ -12,8 +12,9 @@ const PokemonThumb = ({id, image, name, type, _callback }) => {
             <img className="img" src={image} alt={name} />
             <div className="detail-wrapper">
                 <h3>{name}</h3>
+           
 
-                <Link href={`pokemon/${id+1}`}>
+                <Link href={`pokemon/${id}`}>
         <a className='btn'>Detalhes</a>
       </Link>
 

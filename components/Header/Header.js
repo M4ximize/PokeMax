@@ -36,9 +36,6 @@ function Header() {
           <Link href="/Sobre">
           <p>Sobre</p>
           </Link>
-          <Link href="/Contato">
-          <p>Contato</p>
-          </Link>
          
 </div>
         </li>

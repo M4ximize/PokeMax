@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import PokemonThumb from '../Card/Card'
 import styles from "../../styles/Main.module.css";
 import Image from "next/image"
-import Link from 'next/dist/client/link';
+
 
 
 const Main = () => {

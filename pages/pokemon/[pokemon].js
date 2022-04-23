@@ -58,7 +58,7 @@ export default function Pokemon({ pokemon }) {
 <Heads/>
 <Header/>
 
-
+<div>
 
     <div className={styles.container}>
     
@@ -121,6 +121,7 @@ export default function Pokemon({ pokemon }) {
 
 
         </div>
+      </div>
       </div>
       </div>
       <Footer/>

@@ -20,9 +20,10 @@ background-size: 500px;
 .title h3{
 
  
-    color:#971010;
-    font-size: 32px;
+    color:#ffffff;
+    font-size: 24px;
     font-weight: bold;
+    margin: 20px auto;
     
 
 }
@@ -69,12 +70,21 @@ text-align: center;
 
 .list{
     margin-top: 40px;
-background-color: rgba(255, 255, 255, 0.76);
+    background-image: linear-gradient(220deg, rgb(171, 17, 17) 45%, rgb(63, 10, 10) 96%);
 display: flex;
 align-items: center;
-padding: 20px;
-border: #861515 2px solid;
+
+
 border-radius: 10px;
 box-shadow: #2b2a2a8a 2px 2px 5px;
+
+}
+
+.listli{
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+   
 
 }

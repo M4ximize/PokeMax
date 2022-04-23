@@ -10,13 +10,22 @@ export const getStaticPaths = async () => {
   const maxPokemons = 251
   const api = `https://pokeapi.co/api/v2/pokemon/`
 
-  const res = await fetch(`${api}/?limit=${maxPokemons}`)
+  const res = await fetch(`${api}/?limit=${maxPokemons +1}`)
 
   const data = await res.json()
+  
+
 
   const paths = data.results.map((pokemon, index) => {
     return {
-      params: { pokemon: index.toString() },
+      
+ 
+
+      params: { pokemon: (index+1).toString() },
+
+
+
+
     }
   })
 
@@ -29,9 +38,13 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const id = context.params.pokemon
 
+ 
+
   const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
 
-  const data = await res.json()
+  const data = await res.json() 
+
+
 
   return {
     props: { pokemon: data },

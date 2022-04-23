@@ -57,7 +57,7 @@ const Main = () => {
               image={`https://cdn.traction.one/pokedex/pokemon/${pokemonStats.id}.png`}
               name={pokemonStats.name}
               type={pokemonStats.types[0].type.name}  
-              link={pokemonStats.id}
+              
              
              
               

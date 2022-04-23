@@ -28,6 +28,8 @@ const about = props => {
 <div className={styles.list}>
   <ul> 
     <h3>Funções da pokedex</h3>
+
+    <div className={styles.listli}>
     <li>
       <p>Listagem de Pokemons</p> 
       </li>
@@ -37,7 +39,7 @@ const about = props => {
       <li>
       <p>Detalhes de cada pokemon</p> 
       </li>
-
+</div>
       
       </ul>
       </div>
